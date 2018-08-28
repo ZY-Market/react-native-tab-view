@@ -134,8 +134,8 @@ export default class TabViewPagerScroll<T: *> extends React.Component<
         overScrollMode="never"
         scrollEnabled={this.props.swipeEnabled}
         automaticallyAdjustContentInsets={false}
-        bounces={false}
-        alwaysBounceHorizontal={false}
+        bounces={true}
+        alwaysBounceHorizontal={true}
         scrollsToTop={false}
         showsHorizontalScrollIndicator={false}
         scrollEventThrottle={1}
